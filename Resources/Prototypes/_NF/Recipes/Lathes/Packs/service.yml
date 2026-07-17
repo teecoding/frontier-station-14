@@ -60,6 +60,9 @@
   - FoodBowlBig
   - FoodPlate
   - FoodPlateSmall
+  - ServiceSaucer
+  - ServiceTeacup
+  - ServiceTeapot
   - FoodPlateMuffinTin
   - FoodPlateTin
   - FoodKebabSkewer
@@ -70,6 +73,7 @@
   - FoodPlateSmallPlastic
   - NapkinDrum
   - Napkin
+  - NFCookingBag
   - CondimentCupDispenser
   - CondimentCup
   - FoodCondimentSqueezeBottleClear
@@ -137,6 +141,22 @@
   - ServiceSelectiveDropper
   - PlantAnalyzer
   - HotplateMachineCircuitboard
+  - Gavel
+  - GavelBlock
+  - ClothingHandsGlovesBoxingYellow
+  - ClothingHandsGlovesBoxingGreen
+  - ClothingHandsGlovesBoxingBlue
+  - ClothingHandsGlovesBoxingRed
+  - UniformShortsRed
+  - UniformShortsRedWithTop
+  - ClothingEyesHudBeer
+
+- type: latheRecipePack
+  id: NFServiceToysStatic
+  recipes:
+  - ClownRecorder
+  - DiceBag
+  - BikeHorn
 
 - type: latheRecipePack
   id: NFServiceTechfabEmagStatic
@@ -180,6 +200,7 @@
   - PlantAnalyzer # Frontier
   - JanicartFlatpack # Frontier
   - PlantBagOfHolding # Delta-V
+  - NFCookingBag
 
 - type: latheRecipePack
   id: NFPietyStatic
